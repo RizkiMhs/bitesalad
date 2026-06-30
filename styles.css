@@ -1049,3 +1049,144 @@ fieldset {
     flex-wrap: wrap;
   }
 }
+
+
+/* Responsive Hero Section */
+@media (max-width: 980px) {
+  .hero {
+    min-height: auto;
+    padding: 120px 24px 64px;
+    flex-direction: column;
+    gap: 36px;
+    text-align: center;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .hero h1 {
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero p {
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+
+  .hero-stats {
+    width: 100%;
+    max-width: 680px;
+  }
+
+  .hero-card {
+    width: min(100%, 420px);
+    min-height: auto;
+    padding: 24px;
+    transform: none;
+  }
+
+  .hero-card .product-illustration {
+    height: 260px;
+    border-radius: 28px;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero {
+    padding: 108px 18px 56px;
+    gap: 28px;
+  }
+
+  .hero-badge {
+    min-height: auto;
+    padding: 8px 12px;
+    font-size: 0.72rem;
+    line-height: 1.4;
+    text-align: center;
+  }
+
+  .hero h1 {
+    margin: 20px 0 16px;
+    font-size: clamp(2.35rem, 12vw, 3.05rem);
+    line-height: 1;
+  }
+
+  .hero p {
+    font-size: 0.98rem;
+    line-height: 1.7;
+  }
+
+  .hero-actions {
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 26px;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+  }
+
+  .hero-stats {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-top: 26px;
+  }
+
+  .hero-stats div {
+    padding: 14px;
+    border-radius: 18px;
+  }
+
+  .hero-card {
+    width: 100%;
+    padding: 18px;
+    border-radius: 28px;
+  }
+
+  .hero-card .product-illustration {
+    height: 220px;
+    border-radius: 22px;
+  }
+
+  .hero-card-text {
+    padding: 18px;
+    border-radius: 22px;
+  }
+
+  .hero-card-text h3 {
+    font-size: 1.2rem;
+  }
+
+  .hero-card-text p {
+    font-size: 0.9rem;
+    line-height: 1.55;
+  }
+}
+
+@media (max-width: 420px) {
+  .hero {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .hero h1 {
+    font-size: 2.25rem;
+  }
+
+  .hero-card .product-illustration {
+    height: 190px;
+  }
+
+  .hero-card-text strong {
+    font-size: 1.05rem;
+  }
+}
