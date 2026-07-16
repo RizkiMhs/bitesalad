@@ -62,7 +62,7 @@ const toppings = {
   avocado: { calories: 120, protein: 2, carbs: 6, fat: 11 }
 };
 
-const whatsappNumber = "6281365942803";
+const whatsappNumber = "6283196703484";
 
 const header = document.getElementById("siteHeader");
 const navToggle = document.getElementById("navToggle");
